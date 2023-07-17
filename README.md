@@ -15,6 +15,7 @@ Berdasarkan latar belakang diatas, masalah yang ingin diselesaikan dalam proyek 
 - Karakteristik item apa yang dapat dijadikan patokan dalam membuat rekomendasi yang relevan bagi pengguna?
 - Bagaimana cara melakukan pra pemrosesan data pengguna sebelum data dilatih ke model _machine learning_?
 - Bagaimana cara mengembangkan sistem yang dapat memberikan rekomendasi video game yang relevan bagi pengguna?
+- Bagaimana cara mengevaluasi performa dari sistem dalam memberikan rekomendasi kepada pengguna?
 
 ### Goals
 
@@ -32,7 +33,7 @@ Solusi yang dapat diterapkan untuk menyelesaikan masalah yang telah dipaparkan s
 
 ## Data Understanding
 
- _Dataset_ yang dipakai dalam mengembangkan proyek ini berjudul [Steam store games](https://www.kaggle.com/datasets/nikdavis/steam-store-games).Dataset _Steam store games_ menyediakan informasi penting mengenai video game yang terdapat di platform steam. _Dataset Steam Store Games_ memiliki informasi mengenai genre, kategori, dan tag game yang lengkap dan dapat menjadi patokan preferensi pengguna. 
+ _dataset_ yang dipakai dalam mengembangkan proyek ini berjudul [Steam store games](https://www.kaggle.com/datasets/nikdavis/steam-store-games).Dataset _Steam store games_ menyediakan informasi penting mengenai video game yang terdapat di platform steam. _Dataset Steam Store Games_ memiliki informasi mengenai genre, kategori, dan tag game yang lengkap dan dapat menjadi patokan preferensi pengguna. 
 
 Tabel berikut memaparkan rincian mengenai file yang terdapat pada _dataset Steam store games_ :
 
@@ -123,7 +124,7 @@ Fungsi content_recommender menemukan dafar game rekomendasi menggunakan matriks 
 Berikut adalah game yang akan dicari rekomendasinya:
 appid|	name|	release_date|	english|	developer|	publisher|platforms|required_age|achievements|	positive_ratings|	negative_ratings|average_playtime|median_playtime|	owners|	price|	tag|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
-	911400|	Assassin's Creed® III Remastered	|2019-03-29|	1	|Ubisoft Entertainment|	Ubisoft Entertainment\t\t\t\t|	windows	|0|	0	|475|	983|	80|	80|	50000-100000|	33.99|	Single-player;Partial Controller Support; Acti...
+|911400|	Assassin's Creed® III Remastered	|2019-03-29|	1	|Ubisoft Entertainment|	Ubisoft Entertainment\t\t\t\t|	windows	|0|	0	|475|	983|	80|	80|	50000-100000|	33.99|	Single-player;Partial Controller Support; Acti...|
 
 Dan hasil rekomendasi dari game tersebut adalah sebagai berikut:
 ||name|	tag|
@@ -179,3 +180,7 @@ f1_score|	0.815412|
 
 ## Referensi
 [1] Pramesti, D. A. P. D., & Santiyasa, I. W. (2022). Penerapan Metode Content-Based Filtering dalam Sistem Rekomendasi Video Game. JNATIA, 1, 229-34.
+
+
+
+
