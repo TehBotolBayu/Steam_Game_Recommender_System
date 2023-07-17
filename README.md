@@ -32,7 +32,7 @@ Solusi yang dapat diterapkan untuk menyelesaikan masalah yang telah dipaparkan s
 
 ## Data Understanding
 
- _dataset_ yang dipakai dalam mengembangkan proyek ini berjudul [Steam store games](https://www.kaggle.com/datasets/nikdavis/steam-store-games).Dataset _Steam store games_ menyediakan informasi penting mengenai video game yang terdapat di platform steam. _Dataset Steam Store Games_ memiliki informasi mengenai genre, kategori, dan tag game yang lengkap dan dapat menjadi patokan preferensi pengguna. 
+ _Dataset_ yang dipakai dalam mengembangkan proyek ini berjudul [Steam store games](https://www.kaggle.com/datasets/nikdavis/steam-store-games).Dataset _Steam store games_ menyediakan informasi penting mengenai video game yang terdapat di platform steam. _Dataset Steam Store Games_ memiliki informasi mengenai genre, kategori, dan tag game yang lengkap dan dapat menjadi patokan preferensi pengguna. 
 
 Tabel berikut memaparkan rincian mengenai file yang terdapat pada _dataset Steam store games_ :
 
